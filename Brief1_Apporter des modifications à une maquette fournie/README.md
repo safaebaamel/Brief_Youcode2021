@@ -1,4 +1,4 @@
-<h1> Team Members </h1>
+## Team Members
 [Aymane Hlamnach](https://github.com/azuradara) ||
 [Yassine Ait Belkouhia](https://github.com/YassineAitBelkouhia) ||
 [Safae Baamel](https://github.com/sapae)
