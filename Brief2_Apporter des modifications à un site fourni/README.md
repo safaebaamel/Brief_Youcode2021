@@ -1,6 +1,3 @@
-# Apporter des modifications à un site fourni
-
-
 # Maquetter et apporter des modifications à un site fourni
 
 # SKILLS: 
