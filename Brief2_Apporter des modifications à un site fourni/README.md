@@ -1,7 +1,7 @@
 # Maquetter et apporter des modifications à un site fourni
 
 # SKILLS: 
-HTML5 Responsive Design Git UX/UI CSS3 Pédagogie active
+HTML5 - Responsive Design - Git - UX/UI - CSS3 - Pédagogie active
 
 # Brief Référentiels
 Développeur⋅se web et web mobile
