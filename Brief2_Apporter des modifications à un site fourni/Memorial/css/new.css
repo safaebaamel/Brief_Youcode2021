@@ -1,0 +1,13 @@
+
+#mainpage {
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-size: cover;
+    height: 515px;
+    align-content: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100% 100%;
+}

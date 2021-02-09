@@ -383,9 +383,7 @@ ul.top_icon {
 ul.top_icon li:last-child { padding-right: 0px; }
  
 ul.top_icon li a{ color: #fff; 
- }
- 
-
+}
 
 
  .menu-area-main li:hover a, .menu-area-main li:focus a {
@@ -1667,8 +1665,8 @@ color: #000;
      background: url(../images/footer-bg.jpg);
      padding-bottom: 35px;
      background-size: 100% 100%;
-background-repeat: no-repeat;
-background-position: center center;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
  
  .footer .Follow {
@@ -1784,6 +1782,8 @@ margin-top: 90px;
      font-weight: 500;
      text-align: center;
 }
+
+
 
 .contact-page  .Contact {margin-top: 0px;}
 .contact-page .form-control  { margin-bottom: 20px;} 
