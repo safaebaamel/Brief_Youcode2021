@@ -11,6 +11,20 @@
     background-position-y: center;
     background-size: 100% 100%;
 }
+
+.image-librarnew {
+    background-image: url(bann.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-size: cover;
+    height: 515px;
+    align-content: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100% 100%;
+}
+
 .gall {
     font-weight: bolder;
 }
@@ -66,4 +80,22 @@
     font-size: 17px;
     border: none;
 }
-  
+
+.button1, .button2 {
+    background-color: #000000;
+    position: relative;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 200px;
+    cursor: pointer;  
+}
+
+.button1 {
+    margin: 40px;
+
+}
