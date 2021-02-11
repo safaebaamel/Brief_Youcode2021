@@ -19,6 +19,7 @@
   background-repeat: no-repeat;
   height: 73vh;
   display: flex;
+  padding-top: 60px;
   /* justify-content: center; */
   align-items: center;
   flex-direction: column;
@@ -26,12 +27,12 @@
 
 .display--container .display--title {
   font-size: 51px;
-  line-height: 72px;
-  text-align: center;
   color: #fff;
   font-weight: bold;
-  margin-top: 48px;
+  margin-top: 60px;
   margin-bottom: 20px;
+  padding-left: 80px;
+
 }
 
 .display--desc {
@@ -42,6 +43,7 @@
 }
 .display--desc {
    margin-top: 0;
+   box-sizing: border-box;
 }
 
 .display--desc .display--search {
@@ -96,11 +98,13 @@ form.display--search button:hover {
     border: 1px solid black;
   }
 
-.title{
-    font-size: -webkit-xxx-large;
+.title {
+    font-size: 37px;
     text-decoration: underline;
     text-align: center;
+    font: bold;
     margin-top: 2%;
+    padding: 30px;
 }
       
 .QST {
@@ -117,7 +121,7 @@ form.display--search button:hover {
     background-image: url('../images/first.jpg');
     background-size: cover;
     width: 50%;
-    height: 70vh;
+    height: 65vh;
 
 }
 
@@ -128,52 +132,69 @@ form.display--search button:hover {
     text-align: center;
     color: black;
     padding: 60px;
-    height: 70vh;
+    height: 65vh;
     overflow: auto;
-
-
 }
 
 .R p {
 
     font-size: 20px;
-    line-height: 1.7;
+    line-height: 1.5;
     font-weight: 300;
 }
+
 .btn_btn{
     padding: 10px 78px;
     margin-left: -3px;
+    align-self: center;
     border: #0e0c0c solid 1px;
     background: #0e0c0c;
     color: #fff;
     margin-left: 45%;
     margin-top: 2%;
 }
+
+.bott:hover {
+  background-color: white;
+  color: black;
+}
+
 .center {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 200px;
-    border: 3px solid green; 
+    border: 3px solid rgb(0, 0, 0); 
   }
+
 .crd_btn{
     padding: 10px 46px;
     border: #0e0c0c solid 1px;
     background: #0e0c0c;
     color: #fff;
 }
+
+.crd_btn:hover {
+  background-color: white;
+  color:rgb(0, 0, 0);
+}
+
 .column {
     float: left;
     width: 33%;
     padding: 0 10px;
   }
-  .row {margin: 0 -5px;}
+.row1 {
+  margin: 0 -5px;
   
-  .row:after {
+}
+
+
+.row1:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
   
   @media screen and (max-width: 600px) {
     .column {
@@ -183,7 +204,7 @@ form.display--search button:hover {
     }
   }
   
-  .card {
+  .card1 {
     padding: 16px;
     text-align: center;
   }
