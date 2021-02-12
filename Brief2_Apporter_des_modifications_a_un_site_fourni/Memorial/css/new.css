@@ -150,7 +150,7 @@ form.display--search button:hover {
     border: #0e0c0c solid 1px;
     background: #0e0c0c;
     color: #fff;
-    margin-left: 45%;
+    margin-left: 29%;
     margin-top: 2%;
 }
 
@@ -214,3 +214,70 @@ form.display--search button:hover {
   }
 
 
+  #some-box h1 {
+    text-align: center;
+ }
+
+ article.row {
+    width: 102%;
+    max-width: 79%;
+    margin: 0 auto;
+    padding: 122px 0;
+ }
+
+ article.row div {
+    width: 49.4%;
+    display: inline-block;
+    position: relative;
+ }
+
+
+
+ #idea-one img,
+ #idea-two img,
+ #idea-three img {
+    position: absolute;
+    bottom: -177px;
+    left: 47px;
+ }
+
+ .img img {
+    max-width: 87%;
+ }
+
+ @media(max-width:750px) {
+    article.row div {
+       min-width: 300px;
+       width: 90%;
+       margin: 0 5%;
+       text-align: center;
+       display: block;
+       margin-top: 1%;
+    }
+
+
+    /* Center your image */
+    #idea-one img,
+    #idea-two img,
+    #idea-three img {
+       position: relative;
+       margin: auto;
+       left: inherit;
+       bottom: inherit;
+    }
+
+    #idea-two {
+       display: -webkit-box;
+       display: -moz-box;
+       display: box;
+       -webkit-box-orient: vertical;
+       -moz-box-orient: vertical;
+       box-orient: vertical;
+    }
+
+    #idea-two div:first-of-type {
+       -webkit-box-ordinal-group: 2;
+       -moz-box-ordinal-group: 2;
+       box-ordinal-group: 2;
+    }
+ }

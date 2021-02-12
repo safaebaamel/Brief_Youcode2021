@@ -24,7 +24,8 @@
     margin: 20px;
 }
 
-#mainpage .text1,.text2 {
+#mainpage .text1,
+.text2 {
     color: #ffffff;
 }
 
@@ -67,24 +68,6 @@
     border: none;
 }
 
-.button1, .button2 {
-    background-color: #000000;
-    position: relative;
-    border: none;
-    color: white;
-    padding: 15px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 30px 200px;
-    cursor: pointer;  
-}
-
-.button1 {
-    margin: 30px 250px;
-
-}
 
 .text__newlib {
     font-size: 20px;
@@ -119,7 +102,7 @@
     margin: 30px;
 }
 
-.h_days .days{
+.h_days .days {
     font-size: 28px;
     text-decoration: solid;
     text-align: center;
@@ -127,7 +110,90 @@
     font-weight: bold;
 }
 
-.png__pic .pic {
-    height: 140px; 
+.png__pic {
+    background-image: url('images/lbrary-books.png');
+    height: 140px;
     width: auto;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.bolde {
+    font-weight: bold;
+}
+
+.image_centre img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+}
+
+.wrap {
+    width: 45%;
+    margin: 1em auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wide {
+    flex: 0 0 100%;
+}
+
+button:first-of-type {
+    margin-right: 35%;
+}
+
+button {
+    flex: 1;
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #807f7f;
+}
+
+
+@media(max-width:1062px) {
+    button {
+        margin-top: 2%;
+    }
+
+    .text__newlib {
+        font-size: 10px;
+    }
+
+    .h h1 {
+        font-size: 15px;
+    }
+
+    .hours {
+        font-size: 25px;
+    }
+
+}
+
+@media(max-width:566px) {
+    .wrap button {
+        width: 10%;
+        font-size: 10px;
+    }
+    
+}
+@media(max-width:438px) {
+    .text1 {
+        font-size: 40px;
+    }
 }
