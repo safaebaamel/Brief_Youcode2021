@@ -1,5 +1,5 @@
 .image-librarnew {
-    background-image: url(bann.jpg);
+    background-image: url(../images/bann.jpg);
     background-repeat: no-repeat;
     width: 100%;
     background-size: contain;
@@ -72,7 +72,7 @@
     position: relative;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -82,6 +82,48 @@
 }
 
 .button1 {
-    margin: 40px;
+    margin: 30px 250px;
 
 }
+
+.text__newlib {
+    font-size: 20px;
+    text-align: center;
+}
+
+.text__div {
+    margin: 10px;
+    padding: 20px;
+}
+
+.h {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+    text-align: center;
+}
+
+.h h1 {
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.h__hours {
+    font-size: 29px;
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+}
+
+.h_days {
+    margin: 30px;
+}
+
+.h_days .days{
+    font-size: 28px;
+    text-decoration: solid;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
