@@ -127,3 +127,8 @@
     font-weight: bold;
 }
 
+.png__pic {
+    background-image: url('images/lbrary-books.png');
+    height: 140px;
+    width: auto;
+}
