@@ -73,6 +73,103 @@ nav .icon .line {
     border-radius: 3px;
     transition: all .3s ease-in-out;
 }
+/*-------------*/
+.hero {
+    width: 90%;
+}
+
+.hero .row {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    margin: auto;
+}
+
+.hero .row .left--sec {
+    width: 30%;
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+.hero .row .left--sec h2{
+    font-size: 75px;
+    color: rgb(8, 8, 8);
+    text-transform: capitalize;
+}
+
+.hero .row .left--sec h2 span {
+    color: rgba(71, 127, 148, 0.911);
+}
+
+.hero .row .left--sec .discover--button {
+    display:flex;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 4px;
+    align-self: center;
+    padding: 10px 25px;
+    border: 2px solid;
+    margin-top: 10px;
+    background-color: rgb(71, 128, 148);
+    box-shadow: white;
+}
+
+.content--b p {
+    font-size: 16px;
+    color:black;
+}
+
+.hero .row .left--sec .discover--button a{
+    font-size: 20px;
+    color: #fff;
+    align-items: center;
+    letter-spacing: 2px;
+    margin-right: 15px;
+}
+
+.hero .information {
+    width: 80%;
+    display: flex;
+    margin-top: 90px;
+}
+
+.hero .information .production {
+    margin-right: 50px;
+    line-height: 2px;
+}
+
+.hero .information .production h2{
+    font-size: 18px;
+    padding-top: 16px;
+    letter-spacing: 1px;
+}
+
+.hero .information .production p{
+    padding-right: 0;
+    letter-spacing: 2px;
+}
+
+.hero .right-sec {
+    width: 60px;
+    padding-top: 100px;
+}
+
+.hero {
+    background-image: url(imgs/3.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-size: cover;
+    height: 680px;
+    align-content: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100% 100%;
+}
+
 /*-------------------------------------------*/
 footer {
     position: fixed;
@@ -119,82 +216,6 @@ footer {
     background: rgb(71, 148, 148);
 }
 /*-------------------------------------------*/
-
-.hero {
-    width: 90%;
-}
-
-.hero .row {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 40px;
-    margin: auto;
-}
-
-.hero .row .left--sec {
-    width: 30%;
-    margin-top: 90px;
-    margin-left: 40px;
-}
-
-.hero .row .left--sec h2{
-    font-size: 75px;
-    color: black;
-    text-transform: capitalize;
-}
-
-.hero .row .left--sec h2 span {
-    color: rgb(71, 128, 148);
-}
-
-.hero .row .left--sec .discover--button {
-    display:flex;
-    align-items: center;
-    border-radius: 50px;
-    cursor: pointer;
-    margin-top: 4px;
-    padding: 6px 25px;
-    border: 2px solid;
-    background-color: rgb(71, 128, 148);
-    box-shadow: rgba(71, 127, 148, 0.774);
-}
-.hero .row .left--sec .discover--button a{
-    font-size: 18px;
-    color: #fff;
-    justify-content: center;
-    letter-spacing: 2px;
-    margin-right: 15px;
-}
-
-.hero .information {
-    width: 80%;
-    display: flex;
-    margin-top: 90px;
-}
-
-.hero .information .production {
-    margin-right: 50px;
-    line-height: 2px;
-}
-
-.hero .information .production h2{
-    font-size: 18px;
-    padding-top: 20px;
-    letter-spacing: 1px;
-}
-
-.hero .information .production p{
-    padding-right: 0;
-    letter-spacing: 2px;
-}
-
-.hero .right-sec {
-    width: 60px;
-    padding-top: 100px;
-}
-
 /*-------------------------------------------*/
 
 @media screen and (max-width: 768px) {
