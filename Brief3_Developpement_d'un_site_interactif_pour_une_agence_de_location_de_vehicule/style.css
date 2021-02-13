@@ -10,7 +10,7 @@ nav {
  left: 0;
  right: 0;
  top: 0;
- height: 100px;
+ height: 90px;
  background-color: rgb(71, 128, 148);   
 }
 
@@ -73,7 +73,7 @@ nav .icon .line {
     border-radius: 3px;
     transition: all .3s ease-in-out;
 }
-
+/*-------------------------------------------*/
 footer {
     position: fixed;
     bottom: 0px;
@@ -118,9 +118,10 @@ footer {
 .left .content .social a span:hover{
     background: rgb(71, 148, 148);
 }
+/*-------------------------------------------*/
 
 .hero {
-    width: 100%;
+    width: 90%;
 }
 
 .hero .row {
@@ -128,18 +129,18 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 40px;
     margin: auto;
 }
 
 .hero .row .left--sec {
     width: 30%;
-    margin-top: 100px;
-    margin-left: 50px;
+    margin-top: 90px;
+    margin-left: 40px;
 }
 
 .hero .row .left--sec h2{
-    font-size: 85px;
+    font-size: 75px;
     color: black;
     text-transform: capitalize;
 }
@@ -153,40 +154,48 @@ footer {
     align-items: center;
     border-radius: 50px;
     cursor: pointer;
-    margin-top: 50px;
-    padding: 0 25px;
-    border: 3px solid;
+    margin-top: 4px;
+    padding: 6px 25px;
+    border: 2px solid;
     background-color: rgb(71, 128, 148);
-    box-shadow: black;
+    box-shadow: rgba(71, 127, 148, 0.774);
 }
 .hero .row .left--sec .discover--button a{
-    font-size: 25px;
+    font-size: 18px;
     color: #fff;
+    justify-content: center;
     letter-spacing: 2px;
     margin-right: 15px;
 }
 
 .hero .information {
-    width: 100%;
+    width: 80%;
     display: flex;
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
 .hero .information .production {
     margin-right: 50px;
-    line-height: 3px;
+    line-height: 2px;
 }
 
 .hero .information .production h2{
-    font-size: 20px;
+    font-size: 18px;
+    padding-top: 20px;
     letter-spacing: 1px;
 }
 
 .hero .information .production p{
     padding-right: 0;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
+.hero .right-sec {
+    width: 60px;
+    padding-top: 100px;
+}
+
+/*-------------------------------------------*/
 
 @media screen and (max-width: 768px) {
     nav .logo {
