@@ -5,8 +5,11 @@ Vous êtes amené à créer un siteweb pour une agence de location de tout type 
 # Le siteweb doit contenir les pages suivantes :
 
 Accueil (bien représentative pour le siteweb)
+
 Gallerie (regroupe l'ensemble des produits de l'agence)
+
 Réservation (contient un formulaire d'estimation du montant à payer selon les critères mentionnées en bas)
+
 Contact (contient un formulaire qui prend [nom, email, sujet, message] et affiche un message avec les détails renseignés)
 ​
 
@@ -24,5 +27,7 @@ Calculer et afficher l'estimation du prix selon les critères renseignés et sel
 
 # Critères de performance
 Le siteweb doit respecter l'UX/UI
+
 Le siteweb doit respecter le responsive design
+
 Le siteweb doit respecter les normes du SEO
