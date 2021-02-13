@@ -24,5 +24,7 @@ Calculer et afficher l'estimation du prix selon les critères renseignés et sel
 
 # Critères de performance
 Le siteweb doit respecter l'UX/UI
+
 Le siteweb doit respecter le responsive design
+
 Le siteweb doit respecter les normes du SEO
