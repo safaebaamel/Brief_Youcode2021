@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 nav {
@@ -9,12 +10,9 @@ nav {
  left: 0;
  right: 0;
  top: 0;
- font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  height: 100px;
- background-color: rgb(71, 148, 148);   
+ background-color: rgb(71, 128, 148);   
 }
-
-
 
 nav .logo {
     float: left;
@@ -39,6 +37,10 @@ nav .links {
 
 nav .links li {
     list-style: none;
+}
+
+nav ul li a:hover {
+    opacity: .5;
 }
 
 nav .links a {
@@ -69,8 +71,121 @@ nav .icon .line {
     background-color:white ;
     margin: 4px;
     border-radius: 3px;
+    transition: all .3s ease-in-out;
 }
 
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: black;
+    color: #fff;
+}
+.main--content {
+    display: flex;
+}
+
+.main--content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2 {
+    font-size: 1.225rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+}
+.left .content .social {
+    margin: 20px 0 0 0;
+}
+.left .content .social a{
+    padding: 20px 0;
+}
+
+.left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.left .content .social a span:hover{
+    background: rgb(71, 148, 148);
+}
+
+.hero {
+    width: 100%;
+}
+
+.hero .row {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.hero .row .left--sec {
+    width: 30%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.hero .row .left--sec h2{
+    font-size: 85px;
+    color: black;
+    text-transform: capitalize;
+}
+
+.hero .row .left--sec h2 span {
+    color: rgb(71, 128, 148);
+}
+
+.hero .row .left--sec .discover--button {
+    display:flex;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 50px;
+    padding: 0 25px;
+    border: 3px solid;
+    background-color: rgb(71, 128, 148);
+    box-shadow: black;
+}
+.hero .row .left--sec .discover--button a{
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-right: 15px;
+}
+
+.hero .information {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+
+.hero .information .production {
+    margin-right: 50px;
+    line-height: 3px;
+}
+
+.hero .information .production h2{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.hero .information .production p{
+    padding-right: 0;
+    letter-spacing: 1px;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -87,18 +202,23 @@ nav .icon .line {
         left: 0;
         right: 0;
         top: 100px;
-        bottom : 0; 
+        bottom : 100%; 
         flex-direction: column;
         width: auto;
         height: auto;
         background-color: black;
         justify-content: space-evenly;
+        box-sizing: border-box;
         overflow: hidden;
         transition: all .5s  ease-in-out;
     }
     nav .links a {
         font-size: 20px;
     }
+    nav :checked ~ .links {
+		bottom: 0;
+	}
+
     nav .icon {
         display: block;
     }
