@@ -109,7 +109,7 @@ nav .icon .line {
     border-radius: 50px;
     cursor: pointer;
     margin-top: 4px;
-    align-self: center;
+    align-self: cen ter;
     padding: 10px 25px;
     border: 2px solid;
     margin-top: 10px;
@@ -163,16 +163,227 @@ nav .icon .line {
     width: 100%;
     background-size: contain;
     background-size: cover;
-    height: 680px;
+    height: 720px;
     align-content: center;
     background-position-x: center;
     background-position-y: center;
     background-size: 100% 100%;
 }
+/*-------------------------------------------------------*/
+.offersSection{
+    width: 1140px;
+    margin: auto;
+    margin-top: 80px;
+  }
+  .offersSection h1{
+    font-size: 40px;
+    font-weight: 300;
+    margin: auto 10px;
+  }
+  .offersSection ul{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+  }
+  
+  figure{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    float: left;
+    width: 360px;
+    height: 250px;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px -3px rgba(0,0,0,0.55);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border-radius: 5px;
+  }
+
+  figure:hover{
+    transition: all 0.3s ease;
+  }
+  figcaption{
+    position: absolute;
+    top: 150px;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    transition: all 0.3s ease; 
+  }
+  figcaption h4{
+    margin: 5px 10px 0px;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+  }
+  figcaption .subtitle{
+    margin: 0px 10px 15px;
+    font-weight: 400;
+    color: #666;
+  }
+  figcaption .offerClaim{
+    margin: 4px 10px 0px;
+    float: left;
+    font-size:14px;
+    font-style: italic;
+    font-weight: 600;
+    color: #198cfb;
+  }
+  figcaption .content{
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    margin: 0 10px;
+    text-align: justify;
+  }
+  figcaption .offerPrice{
+    width: 95%;
+    text-align: right;
+    color: #333;
+    font-weight: 600;
+    font-size: 21px;
+    padding:0;
+    margin: 0 0 10px 0;
+  }
+  figcaption .expandedClaim{
+    font-size: 16px;
+    font-weight: 600;
+    color: indianRed;
+    text-align: center;
+    margin: 7px 10px;
+  }
+  figure:hover figcaption{
+    top: 0;
+    height: 250px;
+    background-color: #e8ecfb;
+    transition: all 0.3s ease;
+  }
+
+/*------faqqqq-------------------------------------*/
 
 /*-------------------------------------------*/
+
+section {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h3 {
+    font-weight: 600;
+    color: #333;
+    font-size: 1.825rem;
+    margin: 1.3rem 0;
+  }
+
+.section-lead {
+    max-width: 600px;
+    margin: 1rem auto 1.5rem;
+  }
+  
+  .service a {
+    color: #5b7abb;
+    display: block;
+  }
+  
+  .service h4 {
+    font-weight: 600;
+    color: #56ceba;
+    font-size: 1.3rem;
+    margin: 1rem 0 0.6rem;
+  }
+  
+  .services-grid {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  
+  .service {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    -webkit-box-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #e7e7e7;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  
+  .service:hover {
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+  }
+  
+  .service i {
+    font-size: 3.45rem;
+    margin: 1rem 0;
+  }
+  
+  .service1 i,
+  .service1 h4,
+  .service1 .cta {
+    color: #42b7ca;
+  }
+  
+  .service1:hover {
+    border: 2px solid #42b7ca;
+  }
+  
+  .service2 i,
+  .service2 h4,
+  .service2 .cta {
+    color: #425fca;
+  }
+  
+  .service2:hover {
+    border: 2px solid #425fca;
+  }
+  
+  .service3 i,
+  .service3 h4,
+  .service3 .cta {
+    color: #9c42ca;
+  }
+  
+  .service3:hover {
+    border: 2px solid #9c42ca;
+  }
+  
+  .service .cta span {
+    font-size: 0.6rem;
+  }
+  
+  .service > * {
+    flex: 1 1 100%;
+  }
+  
+  .service .cta {
+    align-self: flex-end;
+  }
+  
+  @media all and (max-width:900px) {
+    .services-grid {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+    }
+  }
+/*-------------------------------------------*/
 footer {
-    position: fixed;
     bottom: 0px;
     width: 100%;
     background: black;
