@@ -1,89 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-
-    <title>Reservation</title>
+    <link rel="stylesheet" href="Css/reservation.css">
+    <script src="https://kit.fontawesome.com/b52600e1d0.js"></script>
+    <title>Home</title>
 </head>
+
 <body>
-    <nav>
-        <input id="nav__toggle" type="checkbox">
-        <div class="logo">VEHICLE<strong>G</strong></div>
-        <ul class="links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="reservation.html">Reservation</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <label for="nav__toggle" class="icon">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </label>
-    </nav>
+    <div class="nav">
+        <img class="logo" src="imgs/Cars-Logo.webp" alt="logo">
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="gallery.html">Gallery </a>
+            <a href="reservation.html">Reservation</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <!--end of nav-->
+    <section>
+        <div class="res">
+            <div class="res_box">
+            </div>
+            <div class="header_form">
+                <h1> BOOK A VEHICLE </h1>
+            </div>
+            <div class="formulaire">
+                <form action="">
+                    <div class="row">
+                        <span>Name</span>
+                        <input type="text" placeholder="Name">
+                        <span>Last Name</span>
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <div class="row2">
+                        <span>Phone Number</span>
+                        <input type="tel" placeholder="Phone number">
+                    </div>
+                    <div class="row3">
+                        <span>Select a vehicle</span>
+                        <select id="cars" name="cars">
+                            <option value="volvo">Moto</option>
+                            <option value="saab">Citadine</option>
+                            <option value="fiat">Compact</option>
+                            <option value="audi">Berlin</option>
+                            <option value="audi">Utilitaire</option>
+                            <option value="audi">Engin de chantier</option>
+                            <option value="audi">Camion</option>
+                        </select>
+                    </div>
+                    <div class="row4">
+                        <span>Choose from the list below</span>
+                        <select id="cars" name="cars">
+                            <option value="volvo">Manual</option>
+                            <option value="saab">Automatic</option>
+                        </select>
+                    </div>
+
+                    <div class="row5">
+                        <span>Select your choice</span>
+                        <select id="cars" name="cars">
+                            <option value="volvo">Electrical</option>
+                            <option value="saab">Hybride</option>
+                            <option value="fiat">Essence</option>
+                            <option value="audi">Diesel</option>
+
+                        </select>
+                    </div>
+
+                    <button type="button" onclick="alert('Thank you for your booking')"> Rent a Car </button>
+
+                </form>
+            </div>
+
+        </div>
+    </section>
+
     <!--Beginning of footer-->
+
     <footer>
-        <div class="main--content">
-            <div class="left box">
-                <h2>About Us</h2>
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae natus nulla possimus dolore architecto quo, ut cumque sit repudiandae vel maiores impedit voluptatum? Iusto quos quaerat unde molestiae dolores tempore.</p>
-                    <div class="social">
-                        <a href="#"><span class="fab fa-facebook"></span></a>
-                        <a href="#"><span class="fab fa-twitter"></span></a>
-                        <a href="#"><span class="fab fa-instagram"></span></a>
-                        <a href="#"><span class="fab fa-linekdin"></span></a>
-                    </div>
-                </div>
+        <div class="footer">
+            <div class="row">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
             </div>
-            <div class="center box">
-                <h2>Address</h2>
-                <div class="content">
-                    <div class="place">
-                        <span class="fas fa-map-marker-alt"></span>
-                        <span class="text">TURKEY, ANKARA</span>
-                    </div>
-                </div>
-                <div class="phone">
-                    <div class="place">
-                        <span class="fas fa-phone-alt"></span>
-                        <span class="text">+2122989039023</span>
-                    </div>
-                </div>
-                <div class="email">
-                    <div class="place">
-                        <span class="fas fa-map-envelop"></span>
-                        <span class="text">example@jsko.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="right box">
-                <h2>Contact Us</h2>
-                <div class="content">
-                    <form action="#" class="" id="">
-                        <div class="email">
-                            <div class="text">
-                                <input type="email" required>
-                            </div>
-                            <div class="message">
-                                <div class="text">Message</div>
-                                    <textarea rows="3" cols="26" required></textarea>
-                            </div>
-                            <div class="btn">
-                                <button type="submit">Send</button>
-                            </div>
-                        </div>
-                    
-                    </form>
-                </div>
+
+            <div class="row">
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Career</a></li>
+                </ul>
             </div>
         </div>
     </footer>
+
     <!--end of footer-->
 </body>
+
 </html>

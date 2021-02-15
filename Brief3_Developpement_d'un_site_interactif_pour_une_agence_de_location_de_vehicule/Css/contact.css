@@ -8,7 +8,7 @@
 }
 
 .nav img {
-  position: fixed;
+  position: absolute;
   left: 110px;
   width: 40x;
   height: 40px;
@@ -25,10 +25,12 @@
   width: 100%;
   line-height: 70px;
   padding: 0;
-  padding-top: 0;
   z-index: 1;
 }
 
+nav {
+  position: fixed;
+}
 
 .menu {
   margin: 0 110px 0 0;
@@ -67,7 +69,7 @@
 
 /* ____________________Contact Us Form ___________________ */
 .lbl,
-input,
+button,
 textarea {
   display: block;
   width: 100%;
@@ -93,7 +95,7 @@ span {
   text-transform: uppercase;
 }
 
-input[type="submit"] {
+button[type="button"] {
   background: #9c2832;
   color: white;
   font-weight: 700;
@@ -123,7 +125,7 @@ form {
   color: black;
 }
 
-input,
+button,input,
 textarea {
   width: 100%;
   padding: 9px 20px;

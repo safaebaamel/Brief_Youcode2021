@@ -131,7 +131,7 @@ ________________________header car___________________ */
 
 .he_car {
   color: #fff;
-  background-image: url(../imgs/8.jpg);
+  background-image: url(../imgs/12.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -402,7 +402,7 @@ img {
   }
 }
 
-/* _______Foter________ */
+/* _______Footer________ */
 @media (max-width:720px) {
   .footer {
     text-align: left;
