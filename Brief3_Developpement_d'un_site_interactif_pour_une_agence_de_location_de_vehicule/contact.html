@@ -35,11 +35,15 @@
                     <input type="email" id="mail" name="user_email" required>
                 </li>
                 <li>
+                    <label for="subj" class="lbl"><span>Subject</span></label>
+                    <input type="subj" id="subj" name="subj" !required>
+                </li>
+                <li>
                     <label for="msg" class="lbl"><span>Message</span></label>
                     <textarea rows="4" cols="50" required></textarea>
                 </li>
                 <li>
-                    <button type="button" onclick="alert('Thank you for your message! You\'ll get a respond from us soon')">Submit</button>
+                    <button type="button" onclick="MessageChannelbox()">Submit</button>
                 </li>
             </ul>
         </form>
@@ -71,6 +75,8 @@
     </footer>
 
     <!--end of footer-->
+    <script src="JS/Main.js" ></script>
+
 </body>
 
 </html>
