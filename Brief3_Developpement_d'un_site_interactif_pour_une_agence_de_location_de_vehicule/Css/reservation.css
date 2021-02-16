@@ -83,7 +83,7 @@ nav {
     font-size: 35px;
     color: #9c2832;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 90px;
     text-shadow: 3px 3px rgb(0, 0, 0);
 }
 
@@ -111,13 +111,13 @@ form {
 
 
 .form__q, input, select,.row1,
-.row2, .row3, .row4, .row5{
+.row2, .row3, .row4, .row5, .days{
     width: 100%;
-    padding: 9px 20px;
-    border: 1px solid #e1e2eb;
-    background-color: #fff;
-    color: #102a43;
-    caret-color: #829ab1;
+    padding: 1px 10px;
+    border: 1px solid #000000;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    caret-color: #d4d4d4;
     box-sizing: border-box;
     font-size: 1rem;
     line-height: 2rem;

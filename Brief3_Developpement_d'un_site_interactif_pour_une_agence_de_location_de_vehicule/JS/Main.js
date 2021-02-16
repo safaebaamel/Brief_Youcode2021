@@ -58,120 +58,58 @@ function MessageChannelbox() {
 
 function reservation() {
   var som = 0;
-  var dd = document.getElementsById('cars').value
+  const i = document.getElementById('days').value
+  var dd = document.getElementById('cars').value
   var dd3 = document.getElementById('cars3').value
   var dd2 = document.getElementById('cars2').value
+
 
   switch (dd) {
     case "moto":
       som += 10;
-      switch (dd3) {
-        case "electrique":
-          som += 0.05;
-          break;
-        case "essence":
-          som += 0.14;
-          break;
-        default:
-          document.write("Sorry, wrong choice");
-      }
-      case "citadine":
-        som += 12;
-        switch (dd3) {
-          case "hybride":
-            som += 0.09;
-            break;
-          case "diesel":
-            som += 0.21;
-            break;
-          case "essence":
-            som += 0.14;
-            break;
-          default:
-            document.write("Sorry, wrong choice");
-        }
-        case "compact":
-          som += 14;
-          switch (dd3) {
-            case "hybride":
-              som += 0.09;
-              break;
-            case "diesel":
-              som += 0.21;
-              break;
-            case "essence":
-              som += 0.14;
-              break;
-            default:
-              document.write("Sorry, wrong choice");
-          }
-          case "utilitaire":
-            som += 16;
-            switch (dd3) {
-              case "diesel":
-                som += 0.21;
-                break;
-              default:
-                document.write("Sorry, wrong choice");
-            }
-            case "engin":
-              som += 900;
-              switch (dd3) {
-                case "diesel":
-                  som += 0.21;
-                  break;
-                case "essence":
-                  som += 0.14;
-                  break;
-                default:
-                  document.write("Sorry, wrong choice");
-              }
-              case "berlin":
-                som += 20;
-                switch (dd2) {
-                  case "auto":
-                    som += 0.19;
-                    switch (dd3) {
-                      case "essence":
-                        som += 0.14;
-                        break;
-                      case "diesel":
-                        som += 0.21;
-                        break;
-                      default:
-                        document.write("Sorry, wrong choice");
-                    }
-                    case "manual":
-                      switch (dd3) {
-                        case "essence":
-                          som += 0.14;
-                          break;
-                        case "diesel":
-                          som += 0.21;
-                          break;
-                        default:
-                          document.write("Sorry, this choice is unavailable!!");
-                      }
-                      default:
-                        document.write("Sorry, unavailable choice!!");
-                }
-                case "camion":
-                  som += 250;
-                  switch (dd2) {
-                    case "auto":
-                      som += 19;
-                      switch (dd3) {
-                        case "diesel":
-                          som += 0.21;
-                          break;
-                        default:
-                          document.write("Sorry, unavailable choice");
-                      }
-                      default:
-                        document.write("Sorry, choice unavailable");
-                  }
-                  default:
-                    document.write("Sorry, unavailable choice")
+      break;
+    case "citadine":
+      som += 12;
+      break;
+    case "compact":
+      som += 14;
+      break;
+    case "berlin":
+      som += 20;
+      break;
+    case "utilitaire":
+      som += 16;
+      break;
+    case "engin":
+      som += 900;
+      break;
+    case "camion":
+      som += 250;
+      break;
   }
-  alert(som);
+  switch(dd2) {
+    case "electrical":
+      som += 0.05;
+      break;
+    case "hybride":
+      som += 0.09;
+      break;
+    case "essence":
+      som += 0.14;
+      break;
+    case "diesel":
+      som += 0.21;
+      break;
+  }
+  switch(dd3) {
+    case "manual":
+      som += 0;
+      break;
+    case "auto":
+      som += 0.19;
+      break;
+  }
+  som = som * i;
+  alert("Thank you for your purchase\n" +  
+"The bill: "+ som);
 }
