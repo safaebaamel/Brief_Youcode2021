@@ -3,5 +3,5 @@
 
 This Folder will hold all the briefs I'll do during the year :)! --2021 PROMO
 
-![logo](SIMPLONLOGO.png)<br> <3
+![logo](SIMPLONLOGO.png)<br> 
 
